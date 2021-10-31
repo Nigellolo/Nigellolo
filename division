@@ -1,0 +1,7 @@
+x = 0
+def m(x, y):
+    print(str(x // y) + "(" + str(x % y) + ")")
+while x != exit:
+    x = int(input())
+    y = int(input())
+    m(x, y)
